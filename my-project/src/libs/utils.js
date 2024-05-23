@@ -1,8 +1,8 @@
 export const cards = [
-  ...MountDeck("paus"),
-  ...MountDeck("ouros"),
-  ...MountDeck("copas"),
-  ...MountDeck("espadas"),
+  ...MountDeck("♣"),
+  ...MountDeck("♦"),
+  ...MountDeck("♥"),
+  ...MountDeck("♠"),
 ];
 
 export function MountDeck(type) {
